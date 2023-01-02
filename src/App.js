@@ -18,7 +18,7 @@ class App extends Component {
       "Seja forte e corajoso. Josue 1:9",
       "Mas, em todas as coisas somos mais que vencedores, por meio dquele que nos amou. romanos 8:37",
       "Tudo posso naquele que me fortalece. Felipenses 4:13",
-      "O ladrão veio para roubar, matar e destruir; eu vim para que tenham vida, e a tenha com abundância. João 10:10",
+      "O ladrão veio para roubar, matar e destruir; eu vim para que tenham vida, e vida em abundância. João 10:10",
       "Eis que estou á porta e bato, se alguém ouvir a minha voz e abrir a porta, eu entrarei e cearei com ele, e ele comigo. Apocalipse 3:20",
       "Certamente ele tomou sobre si as nossas enfermidades e sobre si levou as nossas doenças, contudo nós o consideramos castigado por Deus, por ele atingido e afligido. Isaías 53:4",
       "Se vocês, apesar de serem maus, sabem dar boas coisas aos seus filhos, quanto mais o Pai que está no céu dará o Espírito Santo a quem o pedir! Lucas 11:13",
@@ -48,7 +48,7 @@ class App extends Component {
         <h1>Deus tem uma mensagem para você!!!</h1>
         <img className="img" src={require('./assets/biscoito.png')} />
 
-        <Botao nome="Deus quer falar com voce click aqui" acaoBtn={this.quebraBiscoito}/>
+        <Botao nome="Click aqui para receber" acaoBtn={this.quebraBiscoito}/>
 
         <h3 className="textoFrase">{this.state.textoFrase}</h3>
 
